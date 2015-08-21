@@ -1,0 +1,31 @@
+{
+  "name": "django-route-loader",
+  "version": "0.0.1",
+  "description": "Django route loader for webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "tap test/test.js"
+  },
+  "author": "Ryan Munro <ryan@submersible.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "dedent": "^0.6.0",
+    "dedent-js": "^1.0.1",
+    "tap": "^1.3.2"
+  },
+  "dependencies": {
+    "JSONStream": "^1.0.4",
+    "bluebird": "^2.9.34",
+    "dedent-js": "^1.0.1",
+    "duplexer": "^0.1.1",
+    "function-code": "^1.0.0",
+    "loader-utils": "^0.2.11",
+    "lodash": "^3.10.1",
+    "newline-json": "^0.1.1",
+    "promise-queue": "^2.2.0",
+    "promisepipe": "^1.0.1",
+    "python": "0.0.4",
+    "stream-to-promise": "^1.0.4",
+    "through": "^2.3.8"
+  }
+}
